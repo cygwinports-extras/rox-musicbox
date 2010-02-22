@@ -1,0 +1,8 @@
+ORIG_PN="MusicBox"
+inherit rox
+
+HOMEPAGE=
+SRC_URI="http://rox-musicbox.googlecode.com/files/${ORIG_PN}-${PV}.tgz"
+SRC_DIR=.
+
+ROX_APP=${ORIG_PN}
